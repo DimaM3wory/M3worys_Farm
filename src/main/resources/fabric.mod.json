@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "m3worys_farm",
+	"version": "${version}",
+	"name": "M3wory's Farm",
+	"description": "Lorem ipsum...",
+	"authors": [
+		"m3wory_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/m3worys_farm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.m3wory.m3worys_farm.M3worysFarm"
+		],
+		"client": [
+			"net.m3wory.m3worys_farm.M3worysFarmClient"
+		],
+		"fabric-datagen": [
+			"net.m3wory.m3worys_farm.M3worysFarmDataGenerator"
+		]
+	},
+	"mixins": [
+		"m3worys_farm.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
