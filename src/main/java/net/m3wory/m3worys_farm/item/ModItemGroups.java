@@ -15,6 +15,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cheese"))
                     .icon(() -> new ItemStack(ModItems.MAASDAM_CHEESE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MAASDAM_CHEESE);
+                        entries.add(ModItems.CHEDDAR_CHEESE);
+                        entries.add(ModItems.GOUDA_CHEESE);
+                        entries.add(ModItems.CAMEMBERT_CHEESE);
+                        entries.add(ModItems.MANCHEGO_CHEESE);
+                        entries.add(ModItems.MOZZARELLA_CHEESE);
                     }).build());
 
     public static void registerItemGroups(){

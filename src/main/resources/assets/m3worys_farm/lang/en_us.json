@@ -1,5 +1,10 @@
 {
+  "item.m3worys_farm.camembert_cheese": "Camembert Cheese",
+  "item.m3worys_farm.cheddar_cheese": "Cheddar Cheese",
+  "item.m3worys_farm.gouda_cheese": "Gouda Cheese",
   "item.m3worys_farm.maasdam_cheese": "Maasdam Cheese",
+  "item.m3worys_farm.manchego_cheese": "Manchego Cheese",
+  "item.m3worys_farm.mozzarella_cheese": "Mozzarella Cheese",
 
   "itemgroup.cheese": "M3wory's Farm Cheese"
 }
