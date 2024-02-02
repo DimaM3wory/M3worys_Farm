@@ -1,0 +1,6 @@
+{
+  "parent": "m3worys_farm:block/cheese_wheel",
+  "textures": {
+    "texture": "m3worys_farm:block/maasdam_cheese_wheel"
+  }
+}

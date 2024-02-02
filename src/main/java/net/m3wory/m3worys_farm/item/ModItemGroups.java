@@ -2,6 +2,7 @@ package net.m3wory.m3worys_farm.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.m3wory.m3worys_farm.M3worysFarm;
+import net.m3wory.m3worys_farm.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -20,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CAMEMBERT_CHEESE);
                         entries.add(ModItems.MANCHEGO_CHEESE);
                         entries.add(ModItems.MOZZARELLA_CHEESE);
+
+                        entries.add(ModBlocks.MAASDAM_CHEESE_WHEEL);
                     }).build());
 
     public static void registerItemGroups(){

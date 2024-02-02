@@ -2,6 +2,7 @@ package net.m3wory.m3worys_farm;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.m3wory.m3worys_farm.block.ModBlocks;
 import net.m3wory.m3worys_farm.item.ModItemGroups;
 import net.m3wory.m3worys_farm.item.ModItems;
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class M3worysFarm implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
 	}
 }
